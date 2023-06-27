@@ -1,0 +1,10 @@
+<h1>Characters</h1>
+<ul>
+  <% @characters.each do |character| %>
+    <li>
+      <strong>Name:</strong> <%= character.name %><br>
+      <strong>Location:</strong> <%= character.location %><br>
+      <strong>House:</strong> <%= character.house %>
+    </li>
+  <% end %>
+</ul>
